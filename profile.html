@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile - SkillBridge</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header style="display:flex; justify-content:space-between; padding:15px; background:#ffe4f0;">
+  <button onclick="goHome()">Home</button>
+  <button onclick="logoutUser()">Logout</button>
+</header>
+
+<div class="profile-container">
+  <div class="profile-header">
+    <div class="profile-avatar">
+      <div class="avatar-circle">
+        <span>👤</span>
+      </div>
+    </div>
+    <h1>My Profile</h1>
+  </div>
+
+  <div class="profile-content">
+    <div id="profileData" class="profile-info"></div>
+  </div>
+</div>
+
+<script type="module" src="script.js"></script>
+</body>
+</html>

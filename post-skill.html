@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Post Skill</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header style="display:flex; justify-content:space-between; padding:15px; background:#ffe4f0;">
+  <button onclick="goHome()">Home</button>
+  <button onclick="logoutUser()">Logout</button>
+</header>
+<section class="form-section">
+  <h2>Post Skill</h2>
+
+  <form id="skillForm">
+    <input type="text" id="skillTitle" placeholder="Skill Title" required>
+    <input type="number" id="skillPrice" placeholder="Price" required>
+    <textarea id="skillDesc" placeholder="Description" required></textarea>
+    <button class="btn">Post</button>
+  </form>
+</section>
+
+<script type="module" src="script.js"></script>
+</body>
+</html>
