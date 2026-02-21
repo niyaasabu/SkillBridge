@@ -13,7 +13,7 @@
 - Member 2: Neya Sabu - College of Engineering Kallooppara
 
 **Hosted Project Link**
-https://skill-bridge-ecru-alpha.vercel.app/
+https://niyaasabu.github.io/SkillBridge/
 
 ## Project Overview
 
