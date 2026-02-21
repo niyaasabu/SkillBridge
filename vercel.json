@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "cleanUrls": true,
+  "routes": [
+    { "src": "/favicon.ico", "dest": "/favicon.svg" },
+    { "src": "/favicon.png", "dest": "/favicon.svg" },
+    { "handle": "filesystem" },
+    { "src": "/(.*)", "dest": "/$1" }
+  ]
+}
